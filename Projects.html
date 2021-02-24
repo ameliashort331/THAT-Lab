@@ -1,254 +1,186 @@
-<!--      <img class="img-responsive" src="img/pic.jpg" alt="Picture of me" class="img-circle">
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="utf-8">
+    <title>THAT Lab Homepage</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/research_page.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
 
- <title>Projects</title>
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #636363;
+  border-radius: 4px;
+}
 
-  <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/research_page.css" rel="stylesheet">
+</style>
+</head>
 
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="assets/css/starter-template.css" rel="stylesheet">
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-
-          <a href="index.html" class="navbar-left"><img src="img/ThatHoriz.png" alt="THAT Lab"></a>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-
-            <li class = "active"><a class = "header_link" href="Projects.html">Projects</a></li>
-            <li><a class = "header_link" href="People.html">People</a></li>
-            <li><a class = "header_link" href="papers.html">Publications</a></li>
-            <li><a class = "header_link" href="Contact.html">Contact Us</a></li>
-
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-
-<!--    <div class="container">
-
-  <div class="starter-template"> -->
-
-   <div class="container"> <!-- this makes your images scale constantly, between breakpoints as welll. removing -fluid makes then jump in size at breakpoints -->
-     <div class="starter-template">''
-       <div class="page-header">
-        <br><br>
-               <h1>Active Projects</h1>
-
-      </div><!--END page-header-->
+<body>
+  <div>
+  <nav class="navbar" style="border-bottom: 1px solid #dedede;padding:1%;position: fixed;top: 0;z-index:1000;background-color: white;">
+<div class="navbrand">
+<a id = "logo" href="index.html"><img src="img/ThatHoriz.png" alt="Lab logo is the word THAT in 70s style Font. Stands for The Health, Aging & Technology Lab">
+</a>
+<div class="burger" id="burger">
+  <span class="burger-open">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+      <g fill="#252a32" fill-rule="evenodd">
+        <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+      </g>
+    </svg>
+  </span>
+  <span class="burger-close">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+      <path fill="#252a32" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+    </svg>
+  </span>
 </div>
-      <br><br>
+</div>
+<ul class="menu" id="menu">
+<li class="menu-item"><a class="menu-link"href="Projects.html" style = "font-size:20px">Projects</a></li>
+<li class="menu-item"><a class="menu-link"href="People.html" style = "font-size:20px">People</a></li>
+<li class="menu-item"><a class="menu-link"href="papers.html" style = "font-size:20px">Publications</a></li>
+<li class="menu-item"><a class="menu-link"href="Contact.html" style = "font-size:20px">Contact Us</a></li>
+</ul>
+</nav>
+</div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="embed-responsive embed-responsive-16by9">
-              <img class="card-img-top" src="img/PO1_antler2_2.png" alt="Gardener holding shears and pointing at his garden">
+
+
+<div id="header_bar" class="container" style = "margin-top:8%;">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="card">
+                            <img src="img_test/PO1_antler2_2.png" alt="Gardener holding shears and pointing at his garden" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <span class = "non_link" style = "pointer-events: none;font-size:20px;"> Intergenerational Skill Sharing
+                                  </span>
+                                </h4>
+                                <p class="">
+                                    This project investigates how to design technology for sharing embodied skills between generations. We are currently studying this topic in the context of gardening, an activity practised by an estimated 42 million US households for a variety of economic, social, and health motivations across age groups.
+                                </p>
+                            </div>
+                            <div class="card-read-more" style = "padding:15px">
+                              <b>Team:</b> Teja Maddali
+                        <br>
+                            <b>Pubs:</b> CHI 20
+                            <br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="card">
+                          <img src="img_test/technica crop.jpg" alt="Students points at poster depicting an idea that was co-designed with people with dementia. The idea involves a tablet on a stand that follows the user (the poster is detailed but little is visible)." />
+
+                          <div class="card-content">
+                              <h4 class="card-title">
+                                <span class = "non_link" style = "pointer-events: none;font-size:20px;"> Technology and Dementia
+                              </span>
+                              </h4>
+                              <p class="">
+                                The goal of this project is to design and develop technologies with and for people with dementia that are enjoyable, relevant, and accessible. We are conducting interviews, observations, focus groups, usability tests, and co-design, with a particular focus on meaningful activities.
+                              </p>
+                          </div>
+                          <div class="card-read-more" style = "padding:15px">
+                            <b>Team:</b> Emma Dixon, Jesse Anderson
+                      <br>
+                          <b>Pubs:</b> CHI 19, 20, 21; CSCW 19; Assets 20
+                          <br>
+                          <b>Funding:</b> Grant 90REGE0008, U.S. Admin. for Community Living, NIDILRR, Dept. of Health & Human Services.
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="card">
+                          <img class="card-img-top" src="img_test/voice.png" alt="Cartoon drawing of a voice assistant">
+
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                  <span class = "non_link" = "pointer-events: none;font-size:20px;"> Aging with Voice Technologies
+                                </span>
+                                </h4>
+                                <p class="">
+Older adults are increasingly adopting commercially available smart speakers like Amazon Echo or Google Home. By understanding older individuals’ current usage, perceptions, and preferences around such technologies, this work explores how these technologies can be customized to better support aging in place.
+                                  </p>
+                            </div>
+                            <div class="card-read-more" style = "padding:15px">
+                              <b>Team:</b> Alisha Pradhan, Shaan Chopra, James Gallier, Katie Siek, Ben Jelen
+                        <br>
+                            <b>Pubs:</b> CSCW 19, TOCHI 19
+                            <br>
+                            <b>Funding:</b> National Science Foundation award #1816145.
+                            <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="card">
+                        <img class="card-img-top" src="img_test/Zoom2.png" alt="Participant sitting at a table with a laptop with a remote researcher on a video call and a mini printer">
+
+                          <div class="card-content">
+                              <h4 class="card-title">
+                                <span class = "non_link" style = "pointer-events: none;font-size:20px;"> Advancing Design
+                              </span>
+                              </h4>
+                              <p class="">
+                                We are examining both technological and theoretical approaches to advance design methods for working with older adults and people with dementia. This includes supporting remote, embodied desgn, participatory action research approaches, and developing a Human Rights-based approach to user-centered design.
+                              </p>
+                          </div>
+                          <div class="card-read-more" style = "padding:15px">
+                            <b>Team:</b> Teja Maddali, Alisha Pradhan, Emma Dixon, Shaan Chopra, Amelia Short, Mary Radnofsky, Diana Blackwelder
+                      <br>
+                          <b>Pubs:</b> CHI 20, CHI 21
+                          </div>
+                      </div>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-              <h2 class="card-title">Intergenerational Skill Sharing</h2>
-                <p class="card-text">This project investigates how to design technology for sharing embodied skills between generations. We are currently studying this topic in the context of gardening, an activity practised by an estimated 42 million US households for a variety of economic, social, and health motivations across age groups.</p>
-
-                Team: Teja Maddali
-          <br>
-              Pubs: CHI 20
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="card">
-           <div class="embed-responsive embed-responsive-16by9">
-            <img class="card-img-top" src="img/Technica_1copycopy.jpg" alt="Woman looking at paper prototype, which is a set of instructions on a piece of cardboard.">
-          </div>
-          <div class="card-body">
-
-            <h2 class="card-title">Technology and Dementia</h2>
-           <p class="card-text">The goal of this project is to design and develop technologies with and for people with dementia that are enjoyable, relevant, and accessible. We are conducting interviews, observations, focus groups, usability tests, and co-design, with a particular focus on meaningful activities.
-
-            </p>
-Team: Emma Dixon, Jesse Anderson
-            <br>
-             Pubs: CHI 19, 20, 21; CSCW 19; Assets 20<br>
-             Funding: Grant 90REGE0008, U.S. Admin. for Community Living, NIDILRR, Dept. of Health & Human Services.
-
-            <br><br><br>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="embed-responsive embed-responsive-16by9">
-              <img class="card-img-top" src="img/voice.png" alt="Cartoon drawing of a voice assistant">
-            </div>
-
-            <div class="card-body">
-              <h2 class="card-title">Aging with Voice Technologies</h2>
-                 <p class="card-text">Older adults are increasingly adopting commercially available smart speakers like Amazon Echo or Google Home. By understanding older individuals’ current usage, perceptions, and preferences around such technologies, this work explores how these technologies can be customized to better support aging in place.</p>
-
-                Team: Alisha Pradhan, Shaan Chopra, James Gallier, Katie Siek, Ben Jelen
-            <br>
-              Pubs: CSCW 19, TOCHI 19
-              <br>
-               Funding: National Science Foundation award #1816145.
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="card">
-           <div class="embed-responsive embed-responsive-16by9">
-            <img class="card-img-top" src="img/Zoom2.png" alt="Participant sitting at a table with a laptop with a remote researcher on a video call and a mini printer">
-          </div>
-          <div class="card-body">
-
-            <h2 class="card-title">Advancing Design</h2>
-             <p class="card-text">We are examining both technological and theoretical approaches to advance design methods for working with older adults and people with dementia. This includes supporting remote, embodied desgn, participatory action research approaches, and developing a Human Rights-based approach to user-centered design.</p>
-              <br>
-               Team: Teja Maddali, Alisha Pradhan, Emma Dixon, Shaan Chopra, Amelia Short, Mary Radnofsky, Diana Blackwelder
-               <br>
-
-             Pubs: CHI 20, CHI 21
-
-            </p>
-            <br><br><br><br>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
 
     <div class="line"></div>
-
     <footer class="footer navbar-default" role="contentinfo">
-      <div class="container">
-        <p class="text-center">
-          The Health, Aging, and Technology Lab is located in the College of Information Studies at the University of Maryland. We are part of the <a href="https://hcil.umd.edu/">Human Computer Interaction Lab</a> and <a href="https://trace.umd.edu/">Trace Research & Development Center.</a>
+            <div class="container">
+                <p class="text-center">
+                    The Health, Aging, and Technology Lab is located in the College of Information Studies at the University of Maryland. We are part of the <a href="https://hcil.umd.edu/">Human Computer Interaction Lab</a> and <a href="https://trace.umd.edu/">Trace Research & Development Center.</a>
 
-          <br>
-          Contact us at <a href="mailto:thatlab@umd.edu">thatlab@umd.edu</a>
-          <br>
+    <br>
+                   Contact us at <a href="mailto:thatlab@umd.edu">thatlab@umd.edu</a>
+    <br>
 
-        </p>
+                  </p>
 
-      </div>
-    </footer>
+            </div>
+        </footer>
+<script>
+const burgerMenu = document.getElementById("burger");
+const navbarMenu = document.getElementById("menu");
 
+// Responsive Navbar Toggle
+burgerMenu.addEventListener("click", function () {
+	navbarMenu.classList.toggle("active");
+	burgerMenu.classList.toggle("active");
+});
 
+</script><script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "qCctVA5sdx");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
 
+</body>
 
-
-
-<!--
-<b>Women’s Health and Technology</b>
-<br> Women’s health has a complicated relationship with healthcare institutions and research due to inequities and stigma that women have experienced. This is compounded in menopause, where individuals face barriers due to age stereotypes as well as gender. We are examining the how technology might play a role in experiences with menopause.
-<br><br>
-
-Lazar A, Su NM, Bardzell J, Bardzell S. Parting the Red Sea: Sociotechnical Systems and Lived Experiences of Menopause. To appear in Proceedings of the Conference on Human Factors in Computing Systems (CHI 2019).
-<br><br>
-
-Bardzell J, Bardzell S, Lazar A, Su NM. (Re-)Framing Menopause Experiences for HCI and Design. To appear in Proceedings of the Conference on Human Factors in Computing Systems (CHI 2019).
-<br><br>
-
--->
-<!--
-<b>Dementia and the use of Information and Communication Technologies</b>
-<br>
-Though a dominant view of dementia sees it as a condition that erases individuality and the ability to engage in activity, other ways of viewing dementia take into account the importance of the social context, abilities that persist long into dementia, and stigma that isolates and marginalizes people with this condition. In my work, I explore the use of technology to support quality of life and social connectedness. As many of our technologies are designed for a single individual to make decisions, I am currently conducting a study to understand how technologies can be designed to take into account the shared-decision making that takes place between people with dementia, family members, and healthcare professionals. Relevant publications include:
-
-<ul>
-<li>
-Lazar A, Edasis C, Piper AM. A Critical Lens on Dementia and Design in HCI. CHI 2017. <a href="papers/2017_p2175-lazar.pdf">[pdf]</a>
- </li>
-  <li>Lazar A, Edasis C, Piper AM. Supporting People with Dementia in Digital Social Sharing. CHI 2017. <a href="papers/2017_p2149-lazar.pdf">[pdf]</a>
-</li>
-  <li>Lazar A, Cornejo R, Edasis C, Piper A.M. Designing for the Third Hand: Empowering Older Adults with Cognitive Impairment through Creating and Sharing. DIS 2016. <a href="papers/2016_p1047-lazar.pdf">[pdf]</a>
-</li>
-</ul>
-
--->
-
-<!--
-<br><br>
-<b>Attitudes towards Older Adults and Technology Design</b>
-<br>
-Broad societal views, such as stereotypes based on age, become embedded in and perpetuated through the design of technologies. We have studied the ways that older adults' preferences for technology challenge some of the assumptions that designers and researchers make about older people, particularly in regard to conceptions around social isolation and physical and cognitive decline. We also study how older adults use technology platforms such as blogs and social media to respond to ageism. Relevant publications include:
-
-<ul>
-   <li>Lazar A, Nguyen DH. Successful Leisure: Understanding Older Adults' Motivations to Engage in Leisure Activities. CHI 2017. <a href="papers/2017_p7042-lazar.pdf">[pdf]</a>
-</li>
-  <li>Lazar A, Diaz M, Brewer R, Kim C, Piper AM. Going Grey, Failure to Hire, and the Ick Factor: Analyzing How Older Bloggers Talk About Ageism. CSCW 2017. <a href="papers/2017_p655-lazar.pdf">[pdf]</a>   </li>
- <li>
-Lazar A, Thompson H.J., Piper A.M., Demiris G. Rethinking the Design of Robotic Pets for Older Adults. DIS 2016. <a href="papers/2016_p1034-lazar.pdf">[pdf]</a>
- </li>
-
-
-</ul>
--->
-
-
-
-
-
-    <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
-      <script src="dist/js/bootstrap.min.js"></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-
-      <script src="assets/js/bootstrap.min.js"></script>
-
-      <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "qCctVA5sdx");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
-
-
-    </body>
-    </html>
+</html>
