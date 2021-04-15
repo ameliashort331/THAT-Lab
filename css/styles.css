@@ -144,6 +144,12 @@
 	 font-family: 'Korpus-A', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+#lab_logo {
+  max-width: none;
+}
  ul {
 	 list-style: none;
 }
